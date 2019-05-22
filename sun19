@@ -1,0 +1,52 @@
+    1  mkdir dir1
+    2  ls
+    3  ls
+    4  yum install git
+    5  cd /usr/local
+    6  git clone https://github.com/HeenaPal/ETLHIVE.git
+    7  ls
+    8  cd ETLHIVE/
+    9  vi test1.txt
+   10  ls -i
+   11  ls -l
+   12  ls -la
+   13  git add .
+   14  ls -l .git
+   15  git config --global user.email "heena.pal1991@gmail.com"
+   16  git config --global user.name "HeenaPal"
+   17  cd /usr/local
+   18  cd ..
+   19  cd -
+   20  git clone https://github.com/HeenaPal/ETLHIVE.git
+   21  ls
+   22  cd ETLHIVE/
+   23  git commit -m "first file commited"
+   24  git log
+   25  git push
+   26  git push
+   27  ls
+   28  git branch fix1
+   29  ls
+   30  vim test1.txt 
+   31  vi test1.txt 
+   32  git add .
+   33  git commit -m "adding test1"
+   34  ls
+   35  cd /usr/local
+   36  ls
+   37  history
+   38  git branch
+   39  cd ETLHIVE/
+   40  git branch
+   41  cd master
+   42  vi test2.txt
+   43  add .git
+   44  git add test2.txt 
+   45  git status
+   46  git stash "not to commit now"
+   47  vi test2.txt
+   48  git add test2.txt
+   49  git status
+   50  git push
+   51  git commit
+   52  history >> sun19
